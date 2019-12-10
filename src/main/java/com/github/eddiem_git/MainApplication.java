@@ -1,8 +1,10 @@
 package com.github.eddiem_git;
 
+import java.util.Scanner;
+
 public class MainApplication {
     public static void main(String[] args) {
-        MyObject myObject = new MyObject();
-        myObject.run();
+        String name = Console.getStringInput("Enter your name");
+
     }
 }
